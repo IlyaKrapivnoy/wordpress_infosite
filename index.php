@@ -16,7 +16,19 @@ get_header();
 ?>
 
 	<main>
-        content
+        <div class="container">
+            <div class="about">
+                <div class="section-title">
+                    About
+                </div>
+                <div class="section-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores in incidunt aliquam quos!
+                </div>
+                <div class="about-pic">
+                    <img src="<?php echo get_template_directory_uri (); ?>/images/about.jpeg" alt="a guy is going out">
+                </div>
+            </div>
+        </div>
     </maain>
 </div> <!-- content ends -->
 

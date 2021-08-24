@@ -24,8 +24,8 @@ body {
     margin: 0;
     padding: 0;
 }
-  
-  a {
+
+a {
     text-decoration: none;
     color: #404040;
     cursor: pointer;
@@ -64,6 +64,34 @@ figure.quote {
 
 .content {
     min-height: calc(100vh - 214px);
+}
+
+.section-title {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+}
+
+.section-description {
+    color:  rgb(121, 121, 121);
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.about {
+    padding: 40px 0;
+}
+
+.about-pic {
+   text-align: center;
+}
+
+.about-pic img {
+    max-width: 100%;
+    height: auto;
+    max-height: fit-content;
 }
 
 footer {
@@ -138,6 +166,5 @@ footer .bottom {
     }
     footer .top  {
         flex-direction: column;
-        
     }
 }
