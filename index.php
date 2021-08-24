@@ -45,6 +45,44 @@ get_header();
                 </div>
             </div>
         </div>
+        <div class="comment-section">
+            <div class="container">
+                <div class="cards">
+                    <div class="section-title">
+                        Clients' comments
+                    </div>
+                    <div class="section-description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </div>
+                    <div class="card">
+                        <div class="card-pic">
+                            <img src="<?php echo get_template_directory_uri (); ?>/images/comment-1.jpeg" alt="a guy is going out">
+                        </div>
+                        <div class="card-comment">
+                            <blockquote>
+                                I like to use this WP theme because it helps me to communicate with my audience in the best possible way.
+                            </blockquote>
+                            <figcaption>
+                                &mdash; Martha S., <cite>Western Bank</cite>
+                            </figcaption>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-comment">
+                            <blockquote>
+                                It was a real pleasure to work on this website. I have never been more sutisfied.
+                            </blockquote>
+                            <figcaption>
+                                &mdash; Karl B., <cite>Total Com</cite>
+                            </figcaption>
+                        </div>
+                        <div class="card-pic">
+                            <img src="<?php echo get_template_directory_uri (); ?>/images/comment-2.jpeg" alt="a guy is going out">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </maain>
 </div> <!-- content ends -->
 
