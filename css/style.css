@@ -109,6 +109,12 @@ figure.quote {
     margin-right: 0;
 }
 
+.card-pic img {
+    max-width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
 .column-title {
     font-weight: 700;
     padding-bottom: 20px;
