@@ -92,6 +92,26 @@ figure.quote {
     max-width: 100%;
     height: auto;
     max-height: fit-content;
+    padding-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-content .column {
+    margin-right: 60px;
+    text-align: justify;
+}
+
+.about-content .column:last-child {
+    margin-right: 0;
+}
+
+.column-title {
+    font-weight: 700;
+    padding-bottom: 20px;
 }
 
 footer {
@@ -156,6 +176,21 @@ footer .bottom {
 
     header blockquote {
         margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 900px) {
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-content .column {
+        padding-bottom: 20px;
+        margin-right: 0;
+    }
+
+    .about-content .column:last-child {
+        padding-bottom: 0;
     }
 }
 

@@ -27,6 +27,22 @@ get_header();
                 <div class="about-pic">
                     <img src="<?php echo get_template_directory_uri (); ?>/images/about.jpeg" alt="a guy is going out">
                 </div>
+                <div class="about-content">
+                    <div class="column">
+                        <div class="column-title">
+                            Why should you choose us?
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio maxime consectetur fugiat facilis voluptas placeat ex saepe quis harum. Nostrum aspernatur doloribus tempora? Cupiditate consectetur, numquam doloribus a officia magni quas omnis praesentium minus aperiam animi atque, voluptatibus placeat in?
+                        </p>
+                    </div>
+                    <div class="column">
+                        <div class="column-title">
+                            Why they sicretly have already choosen us?
+                        </div>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus a ullam earum fugiat voluptatibus illo iste architecto, quo dolor eligendi provident error fugit maiores molestias quidem assumenda cum dolorum quaerat beatae eaque incidunt, deserunt fuga accusantium maxime? Maiores labore eligendi nam esse maxime blanditiis sequi modi quaerat?
+                    </div>
+                </div>
             </div>
         </div>
     </maain>
