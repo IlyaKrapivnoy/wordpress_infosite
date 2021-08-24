@@ -16,23 +16,28 @@
             <div class="top">
                 <div class="block">
                     <div class="title">
-                        About us
+                        <?php the_field('footer-title-1'); ?>
+                        <!-- About us -->
                     </div>
                     <p>
-                        West W theme for WordPress is designed for magazine, news and editorial ventures. With content and readability being the primary goal, the theme is designed with flexible layout pattern and decent space for advertisements.
+                        <?php the_field('footer-description-1'); ?>
+                        <!-- West W theme for WordPress is designed for magazine, news and editorial ventures. With content and readability being the primary goal, the theme is designed with flexible layout pattern and decent space for advertisements. -->
                     </p>
                 </div>
                 <div class="block">
                     <div class="title">
-                        The thing is...
+                        <?php the_field('footer-title-2'); ?>
+                        <!-- The thing is... -->
                     </div>
                     <p>
-                        that the West W is not just a WordPress theme is your way of ling and your solid philosophy that creates perfect world for your customers.
+                        <?php the_field('footer-description-2'); ?>
+                        <!-- that the West W is not just a WordPress theme is your way of ling and your solid philosophy that creates perfect world for your customers. -->
                     </p>
                 </div>
                 <div class="block">
                     <div class="title">
-                        You may also like
+                        <?php the_field('footer-title-3'); ?>
+                        <!-- You may also like -->
                     </div>
                     <ul>
                         <li><a href="#">tv record</a></li>
@@ -43,6 +48,7 @@
                 </div>
             </div>
             <div class="bottom">
+                <?php the_field('copyright'); ?>
                 &copy; 2021 by Bart Simpson
             </div>
         </div>
