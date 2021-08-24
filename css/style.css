@@ -227,3 +227,17 @@ footer .bottom {
         flex-direction: column;
     }
 }
+
+@media (max-width: 660px) {
+    .card {
+        flex-direction: column;
+    }
+    .card:nth-child(2n) {
+        flex-direction: column-reverse;
+    }
+    .card-pic,
+    .card-comment {
+        margin: 10px 0;
+    }
+
+}
