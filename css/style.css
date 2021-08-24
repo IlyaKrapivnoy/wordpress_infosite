@@ -109,6 +109,20 @@ figure.quote {
     margin-right: 0;
 }
 
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-comment {
+    margin: 0 60px;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px 20px 16px 20px;
+    border-radius: 28px;
+}
+
 .card-pic img {
     max-width: 120px;
     height: 120px;
