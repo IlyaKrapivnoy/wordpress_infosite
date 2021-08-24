@@ -24,6 +24,14 @@
                 </div>
                 <div class="block">
                     <div class="title">
+                        The thing is...
+                    </div>
+                    <p>
+                        that the West W is not just a WordPress theme is your way of ling and your solid philosophy that creates perfect world for your customers.
+                    </p>
+                </div>
+                <div class="block">
+                    <div class="title">
                         You may also like
                     </div>
                     <ul>

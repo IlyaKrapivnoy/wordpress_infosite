@@ -15,7 +15,6 @@ body {
     background-color: rgb(219, 219, 219);
 }
 
-
   html,
   body {
     height: 100%;
@@ -24,25 +23,26 @@ body {
 * {
     margin: 0;
     padding: 0;
-  }
+}
   
   a {
     text-decoration: none;
     color: #404040;
     cursor: pointer;
-  }
+}
   
   html {
     height: 100%;
     font-size: 14px;
     scroll-behavior: smooth;
-  }
+}
   
 .container {
     max-width: 1076px;
     margin: 0 auto;
     padding: 0 24px;
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -74,8 +74,12 @@ footer {
 footer .top {
     display: flex;
     justify-content: space-between;
+
     padding-bottom: 20px;
     border-bottom: 1px solid #34495E;
+
+    font-size: 16px;
+    line-height: 24px;
 }
 
 footer .top .block {
@@ -85,6 +89,24 @@ footer .top .block {
 
 footer .top .block:nth-child(1) {
     justify-content: flex-end;
+}
+
+footer .top .block .title {
+    font-weight: 700;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+footer .top .block ul {
+    list-style: none;
+}
+
+footer .top .block ul li a {
+    transition: color .2s ease-in;
+}
+
+footer .top .block ul li a:hover {
+    color: rgb(253, 151, 151);
 }
 
 footer .bottom {
