@@ -19,7 +19,7 @@ get_header();
         <div class="container">
             <div class="about">
                 <div class="section-title">
-                    About
+                    <?php the_field('section-title'); ?>
                 </div>
                 <div class="section-description">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores in incidunt aliquam quos!
@@ -91,8 +91,11 @@ get_header();
                 <div class="section-description">
                     This is your small step to the big future.
                 </div>
+                
+                
                 <form action="">
-                    <div class="row">
+                    <?php echo do_shortcode(' [contact-form-7 id="13" title="Контактная форма 1"] '); ?>
+                    <!-- <div class="row">
                         <div class="col-25">
                             <label for="fname">First Name</label>
                         </div>
@@ -118,8 +121,8 @@ get_header();
                     </div>
                     <div class="row">
                         <input type="submit" value="Submit">
-                    </div>
-                </form>
+                    </div> -->
+                </form> 
             </div>
         </div>
     </main>
