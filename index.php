@@ -18,6 +18,7 @@ get_header();
 	<main>
         content
     </maain>
+</div> <!-- content ends -->
 
 <?php
 get_footer();

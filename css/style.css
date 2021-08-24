@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Rampart+One&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+    overflow-x: hidden;
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: #404040;
+
+    background-color: rgb(219, 219, 219);
+}
+
+
+  html,
+  body {
+    height: 100%;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #404040;
+    cursor: pointer;
+  }
+  
+  html {
+    height: 100%;
+    font-size: 14px;
+    scroll-behavior: smooth;
+  }
+  
+.container {
+    max-width: 1076px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+figure.quote {
+    background-color: #f9f9f9;
+    padding: 10px 40px;
+    border-radius: 26px;
+}
+
+.logo a {
+    font-size: 40px;
+    font-family: 'Rampart One', cursive;
+    color: #34495E;
+} 
+
+.content {
+    min-height: calc(100vh - 80px);
+}
+
+@media (max-width: 960px) {
+    header {
+        flex-direction: column;
+    }
+
+    header .left {
+        margin-bottom: 20px;
+    }
+
+    header blockquote {
+        margin-bottom: 8px;
+    }
+}
