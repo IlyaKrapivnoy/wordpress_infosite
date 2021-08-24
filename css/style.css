@@ -109,6 +109,10 @@ figure.quote {
     margin-right: 0;
 }
 
+.cards {
+    padding: 40px 0;
+}
+
 .card {
     display: flex;
     align-items: center;
