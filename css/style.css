@@ -38,6 +38,22 @@ body {
     scroll-behavior: smooth;
   }
   
+.container {
+    max-width: 1124px;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+figure.quote {
+    background-color: #f9f9f9;
+    padding: 10px 40px;
+    border-radius: 50px;
+}
 
 .logo a {
     font-size: 40px;
@@ -47,4 +63,4 @@ body {
 
 .content {
     min-height: calc(100vh - 80px);
-  }
+}

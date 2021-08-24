@@ -26,10 +26,24 @@
 <?php wp_body_open(); ?>
 <div id="page" class="site">
     <div class="content">
-        <header>
-            <div class="logo">
-                <a href="<?php echo get_home_url(); ?>">
-                    West W
-                </a>
-            </div>
-        </header>
+        <div class="container">
+            <header>
+                <div class="left">
+                    <div class="logo">
+                        <a href="<?php echo get_home_url(); ?>">
+                            West W
+                        </a>
+                    </div>
+                </div>
+                <div class="right">
+                    <figure class="quote">
+                        <blockquote>
+                            Business opportunities are like buses, there's always another one <strong>coming</strong>.
+                        </blockquote>
+                        <figcaption>
+                            &mdash; Richard Branson, <cite>Mental models</cite>
+                        </figcaption>
+                    </figure>
+                </div>
+            </header>
+        </div>
