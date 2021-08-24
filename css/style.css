@@ -24,8 +24,8 @@ body {
     margin: 0;
     padding: 0;
 }
-  
-  a {
+
+a {
     text-decoration: none;
     color: #404040;
     cursor: pointer;
@@ -64,6 +64,21 @@ figure.quote {
 
 .content {
     min-height: calc(100vh - 214px);
+}
+
+.about {
+
+}
+
+.about-pic {
+    text-align: center;
+}
+
+.about-pic img {
+    max-width: 100%;
+    height: auto;
+    max-height: fit-content;
+
 }
 
 footer {
@@ -138,6 +153,5 @@ footer .bottom {
     }
     footer .top  {
         flex-direction: column;
-        
     }
 }
