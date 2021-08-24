@@ -39,8 +39,9 @@ body {
   }
   
 .container {
-    max-width: 1124px;
+    max-width: 1076px;
     margin: 0 auto;
+    padding: 0 24px;
 }
 header {
     display: flex;
@@ -52,7 +53,7 @@ header {
 figure.quote {
     background-color: #f9f9f9;
     padding: 10px 40px;
-    border-radius: 50px;
+    border-radius: 26px;
 }
 
 .logo a {
@@ -63,4 +64,18 @@ figure.quote {
 
 .content {
     min-height: calc(100vh - 80px);
+}
+
+@media (max-width: 960px) {
+    header {
+        flex-direction: column;
+    }
+
+    header .left {
+        margin-bottom: 20px;
+    }
+
+    header blockquote {
+        margin-bottom: 8px;
+    }
 }
