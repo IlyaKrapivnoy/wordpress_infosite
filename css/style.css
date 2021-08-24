@@ -130,3 +130,14 @@ footer .bottom {
         margin-bottom: 8px;
     }
 }
+
+@media (max-width: 840px) {
+    footer .top .block {
+        padding-bottom: 26px;
+        width: 100%;
+    }
+    footer .top  {
+        flex-direction: column;
+        
+    }
+}
